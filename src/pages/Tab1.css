@@ -1,0 +1,23 @@
+
+#login-page-header {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+#page-form-login {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.butom-style {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit-style {
+    margin-right: 20px;
+    
+}
+.input-style {
+    margin-bottom: 25px;
+}

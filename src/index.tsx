@@ -4,7 +4,7 @@ import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'
-import configureStore from '../../myApp/src/stores/stores';
+import configureStore from '../src/stores/stores';
 
 ReactDOM.render(
   <React.StrictMode>

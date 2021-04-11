@@ -1,0 +1,7 @@
+.icon-menu-left {
+    float: left;
+}
+.icon-menu-right {
+    float: right !important;
+    font-size: 14px;
+}

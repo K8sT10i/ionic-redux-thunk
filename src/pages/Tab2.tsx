@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
 import { IonInput, IonItem, IonLabel, IonList, IonItemDivider } from '@ionic/react';
@@ -23,13 +23,27 @@ const Tab2: React.FC = () =>{
     setText('')
   }
   return (
-     <IonPage>
+     <IonPage id="tab2">
       <IonHeader>
         <IonToolbar>
           <IonTitle>Cavavin</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        <IonGrid>
+          <IonRow>
+            <IonCol>
+              <IonLabel position="stacked" color="primary">username</IonLabel>
+                <IonInput name="password" type="password" value={''} >
+            </IonInput>
+            </IonCol>
+                <IonCol><IonLabel position="stacked" color="primary">Password</IonLabel>
+                <IonInput name="password" type="password" value={''} >
+              </IonInput>
+            </IonCol>
+            <IonCol></IonCol>
+          </IonRow>
+        </IonGrid>
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Cavavin</IonTitle>
